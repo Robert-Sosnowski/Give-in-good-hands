@@ -4,7 +4,7 @@ import HomeThreeColumns from './HomeThreeColumns';
 const Home = () => {
     return (
         
-        <div>
+        <div className='container'>
             <HomeHeader/>
             <HomeThreeColumns/>
             Home
