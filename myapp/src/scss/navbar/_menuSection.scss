@@ -4,5 +4,17 @@ list-style: none;
 justify-content: space-between;
 align-items: center;
 width: 100%;
-border: 1px solid black;
+
+li {
+    border: 1px solid transparent;
+    padding: 10px;
+}
+
+li:hover {
+    border: 1px solid black;
+}
+
+a, a:visited {
+    text-decoration: none;
+}
 }
