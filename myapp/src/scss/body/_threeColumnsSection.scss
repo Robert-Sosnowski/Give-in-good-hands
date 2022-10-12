@@ -1,0 +1,11 @@
+.threecolumns{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: $colorThird;
+
+    h1{
+        font-size: 90px;
+        font-weight: 300;
+    }
+}
