@@ -1,11 +1,20 @@
-.threecolumns{
-    display:flex;
+.threecolumns {
+    display: flex;
     justify-content: space-evenly;
     align-items: center;
     background-color: $colorThird;
-
-    h1{
+    font-family: $fontBase;
+    div {
         font-size: 90px;
+    }
+    h1 {
+        font-size: 18px;
         font-weight: 300;
+        text-transform: uppercase;
+    }
+    p {
+        font-family: $fontAlt;
+        font-size: 16px;
+        flex-direction: column;
     }
 }

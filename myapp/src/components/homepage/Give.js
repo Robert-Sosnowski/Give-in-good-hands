@@ -1,10 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Decoration from './Decoration';
 const Give = () => {
     return (
         <section className='giveSection'>
-            <h3>Zacznij Pomagać!</h3>
-            <h3>Oddaj niechciane rzeczy w dobre ręce</h3>
+           
+            <Decoration text='Zacznij Pomagać!
+            
+            Oddaj niechciane rzeczy w dobre ręce'/>
             <div class="btnGroup">
                 <Link to="/login">Oddaj rzeczy</Link>
                 <Link to="/login">Zorganizuj zbiórkę</Link>
