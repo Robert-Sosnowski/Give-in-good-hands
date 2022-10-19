@@ -1,0 +1,20 @@
+.fourSteps {
+    background-color: $colorFirst;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: $fontBase;
+    font-weight: 300;
+
+    p {
+        font-size: 18;
+    }
+    ::after {
+        content: "";
+        width: 1px;
+        color: $colorFifth;
+    }
+    span{
+        font-size: 16px;
+    }
+}
