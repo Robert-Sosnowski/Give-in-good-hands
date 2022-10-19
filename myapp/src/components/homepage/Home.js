@@ -2,6 +2,7 @@ import React from 'react';
 import HomeHeader from './HomeHeader';
 import HomeThreeColumns from './HomeThreeColumns';
 import Foursteps from './Foursteps';
+import GiveThings from './GiveThings';
 const Home = () => {
     return (
         
@@ -9,6 +10,7 @@ const Home = () => {
             <HomeHeader/>
             <HomeThreeColumns/>
             <Foursteps/>
+            <GiveThings/>
         </div>
     );
 };
