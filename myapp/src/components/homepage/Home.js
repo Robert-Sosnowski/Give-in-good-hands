@@ -4,6 +4,7 @@ import HomeThreeColumns from './HomeThreeColumns';
 import Foursteps from './Foursteps';
 import GiveThings from './GiveThings';
 import AboutUs from './AboutUs';
+import Helping from './Helping';
 const Home = () => {
     return (
         
@@ -13,6 +14,7 @@ const Home = () => {
             <Foursteps/>
             <GiveThings/>
             <AboutUs/>
+            <Helping/>
         </div>
     );
 };

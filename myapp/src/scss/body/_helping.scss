@@ -1,0 +1,27 @@
+.Helping{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: $fontBase;
+    font-weight: 300;
+    margin:20px;
+    padding: 20px;
+    .btnGroup {
+        display: flex;
+
+        a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            border: 1px solid $colorFifth;
+            width: 208px;
+            height: 79px;
+            margin-right: 10px;
+        }
+    }
+    a, a:visited, a:-webkit-any-link {
+        text-decoration: none;
+        color: black;
+    }
+}
